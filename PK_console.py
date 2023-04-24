@@ -25,7 +25,7 @@ print()
 print('1:matrix')
 print('2:user_wifi_profiles_password')
 print('3:')
-print('4:')
+print('4:morze')
 print('5:')
 print("99:exit")
 
@@ -48,7 +48,20 @@ if inp =="3":
     exit = input(1)
 
 if inp == '4':
-    print(444444)
+    morze = {'a': '•—', 'b': '—•••', 'c': '—•—•', 'd': '—••',
+         'e': '•', 'f': '••—•', 'g': '——•', 'h': '••••',
+         'i': '••', 'j': '•———', 'k': '—•—', 'l': '•—••',
+         'm': '——', 'n': '—•', 'o': '———', 'p': '•——•',
+         'q': '——•—', 'r': '•—•', 's': '•••', 't': '—',
+         'u': '••—', 'v': '•••—', 'w': '•——', 'x': '—••—',
+         'y': '—•——', 'z': '——••', ' ': '\n'}
+
+text = input(type text:).lower()
+
+for i in text:
+    for key, value in morze.items():
+        if i==key:
+            print(value, end=' ')
 
 if inp == '5':
     print(555555)
