@@ -56,7 +56,7 @@ if inp == '4':
          'u': '••—', 'v': '•••—', 'w': '•——', 'x': '—••—',
          'y': '—•——', 'z': '——••', ' ': '\n'}
 
-text = input(type text:).lower()
+text = input('type text:').lower()
 
 for i in text:
     for key, value in morze.items():
