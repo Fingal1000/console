@@ -7,9 +7,10 @@
 #----------import-----------
 import random
 import subprocess as sp
+from colorama import Fore, Back, Style
 #---------------------------
 
-
+print(Fore.GREEN + ' ')
 print('########  ####  ##    ##   ######       ###     ##           ##     #####     #####     #####   ')
 print('##         ##   ###   ##  ##    ##     ## ##    ##         ####    ##   ##   ##   ##   ##   ##  ')
 print('##         ##   ####  ##  ##          ##   ##   ##           ##   ##     ## ##     ## ##     ## ')
